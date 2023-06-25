@@ -1,15 +1,17 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import NotFound from "./pages/NotFound/NotFound";
 import "./App.css";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Home />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 }
 
