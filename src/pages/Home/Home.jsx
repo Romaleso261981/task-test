@@ -15,14 +15,14 @@ function Home() {
     setShowPopUpCookies(!showPopUpCookies);
   }
 
-  setTimeout(() => togglePopUpCookies(!showPopUp), 2000);
+  setTimeout(() => setShowPopUpCookies(true), 2000);
 
   function togglePopUpForm() {
     setShowPopUp(!showPopUp);
   }
 
 
-  
+    
   return (
     <Container>
       <Header />
