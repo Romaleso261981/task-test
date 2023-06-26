@@ -3,7 +3,8 @@ import styles from "./MainLogo.module.css";
 
 function MainLogo() {
   return (
-    <div className={styles.logo}>
+    <div className={styles.logo_wrapper}>
+      <div className={styles.logo}></div>
     </div>
   );
 }
