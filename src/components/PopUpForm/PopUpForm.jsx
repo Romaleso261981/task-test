@@ -18,6 +18,10 @@ function PopUpForm({ togglePopUpForm }) {
           type="text"
         />
         <button className={styles.btn}>Відправить</button>
+        <p className={styles.text}>
+          Натискаючи кнопку “Надіслати”, ви погоджуєтесь з Правилами обробки
+          персональних даних.
+        </p>
       </div>
     </div>
   );

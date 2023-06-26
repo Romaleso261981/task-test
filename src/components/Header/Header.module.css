@@ -1,0 +1,19 @@
+.header_wrapper {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.contact__phone {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+}
+.contact__btn {
+    width: 140px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 40px;
+  background: #859ba6;
+}

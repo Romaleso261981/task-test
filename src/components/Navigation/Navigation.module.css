@@ -1,0 +1,16 @@
+.navigation__container{
+   display: flex;
+   width: 500px;
+    justify-content: space-around;
+
+}
+.navigation__link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    width: 71px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000;
+
+}
