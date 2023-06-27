@@ -6,8 +6,9 @@ import Hero from "../../components/Hero/Hero";
 import PopUpForm from "../../components/PopUpForm/PopUpForm";
 import PopUpCookies from "../../components/PopUpCookies/PopUpCookies";
 import PopUp from "../../components/PopUp/PopUp";
-import styles from "./Home.module.css";
 import Container from "../../components/Container/Container";
+
+import styles from "./Home.module.css";
 
 function Home() {
   const [showPopUp, setShowPopUp] = useState(false);
