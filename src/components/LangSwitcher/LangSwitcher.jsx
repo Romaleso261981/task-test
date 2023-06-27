@@ -10,7 +10,6 @@ export const LangSwitcher = () => {
     setLang(newLang);
   };
 
- console.log(sprite);
 
   return (
     <Switcher>
@@ -20,7 +19,6 @@ export const LangSwitcher = () => {
         id="lang-switcher"
         onChange={toggleLang}
       />
-
       <Label htmlFor="lang-switcher">
         <FlagSvg>
           <use href={sprite + `#united-kingdom`} />
@@ -28,7 +26,6 @@ export const LangSwitcher = () => {
         <FlagSvg>
           <use href={sprite + `#ukraine`} />
         </FlagSvg>
-
         <Ball />
       </Label>
     </Switcher>
