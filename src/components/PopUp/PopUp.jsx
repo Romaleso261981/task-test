@@ -1,4 +1,4 @@
-import styles from "./popUp.module.css";
+import styles from "./PopUp.module.css";
 import PropTypes from "prop-types";
 import Icon from "../../assets/images/quality.png";
 
