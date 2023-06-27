@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 
 import MainLogo from "../../components/MainLogo/MainLogo";
 import Navigation from "../../components/Navigation/Navigation";
+import LangSwitcher from "../../components/LangSwitcher/LangSwitcher";
 
 import styles from "./Header.module.css";
 
@@ -22,6 +23,7 @@ function Header({ togglePopUpForm }) {
           Замовити
         </button>
       </div>
+      <LangSwitcher />
     </div>
   );
 }
