@@ -11,7 +11,7 @@ export const Checkbox = styled.input`
   opacity: 0;
 
   &:checked + label > span {
-    transform: translateX(30px);
+    transform: translateX(28px);
   }
 `;
 
@@ -22,21 +22,20 @@ export const Label = styled.label`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 5px;
-  gap: 10px;
+  gap: 8px;
   height: 28px;
-  /* width: 52px; */
   background-color: Gray;
   cursor: pointer;
 
   & svg {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     fill: black;
   }
 
   & svg:first-of-type {
-    margin-left: 3px;
+    margin-left: 5px;
+    padding-right: 2px;
   }
 
   & svg:last-of-type {
