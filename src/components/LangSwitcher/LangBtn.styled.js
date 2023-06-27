@@ -15,6 +15,7 @@ export const Checkbox = styled.input`
   }
 `;
 
+export const FlagSvg = styled.svg``;
 
 export const Label = styled.label`
   position: relative;
@@ -24,13 +25,14 @@ export const Label = styled.label`
   padding: 0px 5px;
   gap: 10px;
   height: 28px;
+  /* width: 52px; */
   background-color: Gray;
   cursor: pointer;
 
   & svg {
     width: 16px;
     height: 16px;
-    fill: #fff;
+    fill: black;
   }
 
   & svg:first-of-type {

@@ -10,7 +10,7 @@ export const LangSwitcher = () => {
     setLang(newLang);
   };
 
- 
+ console.log(sprite);
 
   return (
     <Switcher>
